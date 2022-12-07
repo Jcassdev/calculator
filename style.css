@@ -9,15 +9,31 @@
     border: solid black;
     height: 600px;
     width:400px;
+    background-image: linear-gradient(lightblue, lightgreen);
+    box-shadow: 10px 5px 5px dimgray;
     
 }
 .output {
     display: flex;
     background-color: rgb(30, 30, 34);
     width:380px;
+    height: 119.66px;
     margin-top: 10px;
-    margin-bottom: 2px;
+    color: white;
+    justify-content: end;
 }
+.display-previous {
+    padding: 5px;
+    font-size: 25px;
+    justify-content: end;
+    opacity: 75%;
+}
+.display-current {
+    padding: 5px;
+    font-size: 40px;
+    align-self: end;
+    
+}   
 .over {
     display: flex;
     width:380px;
@@ -25,100 +41,122 @@
 .clear {
     display:flex;
     width:285px;
-    border-radius: 8%;
+    border-radius: 5%;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    background-color: lavenderblush;
 }
-.division {
-    display:flex;
-    width:95px;
-    border-radius: 45%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+.clear:hover {
+    background-color: tomato
 }
-.top {
+.topRow {
     display: flex;
     width:380px;
 }
-.topRow {
+.numbers {
     display: flex;
     width:95px;
     border-radius: 10%;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    background-color: honeydew;
+}
+.numbers:hover {
+    background-color: lightgreen;
+}
+.sum {
+    display:flex;
+    width:95px;
+    background-color: lightcyan;
+    border-radius: 48%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.sum:hover {
+    background-color: rgb(137, 250, 250);
+}
+.subtract {
+    display:flex;
+    width:95px;
+    background-color: lightcyan;
+    border-radius: 48%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.subtract:hover {
+    background-color: rgb(137, 250, 250);
 }
 .multiply {
     display:flex;
     width:95px;
-    border-radius: 45%;
+    background-color: lightcyan;
+    border-radius: 48%;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    margin-left: 5px;
 }
-.middle {
-    display: flex;
-    width:380px;
+
+.multiply:hover {
+    background-color: rgb(137, 250, 250);
+}.divide {
+    display:flex;
+    width:95px;
+    background-color: lightcyan;
+    border-radius: 48%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.divide:hover {
+    background-color: rgb(137, 250, 250);
 }
 .middleRow {
-    display: flex;
-    width:95px;
-    border-radius: 10%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-.subtract {
-    display: flex;
-    width:95px;
-    border-radius: 45%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-.bottom {
     display: flex;
     width:380px;
 }
 .bottomRow {
     display: flex;
-    width:95px;
-    border-radius: 10%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    width:380px;
 }
-.addition {
-    display: flex;
-    width:95px;
-    border-radius: 45%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-.under {
+.underRow {
     display: flex;
     width:380px;
     justify-content: right;
+    margin-bottom: 10px;
 }
-.underRow{
+.del {
     display: flex;
     width:95px;
     border-radius: 10%;
-    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    
+    background-color: lavenderblush;
+}
+.del:hover {
+    background-color: tomato;
 }
 .equals {
     display: flex;
     width:95px;
-    border-radius: 45%;
-    margin-bottom: 10px;
+    border-radius: 48%;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    margin-left: 5px;
+    background-color: lavender;
+}
+.equals:hover {
+    background-color: plum;
 }
