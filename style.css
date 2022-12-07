@@ -1,12 +1,16 @@
-.container-of-container {
+body {
+    background-image: linear-gradient(lightcyan, lavenderblush);
+    min-height: 100vh;
     display:flex;
     justify-content: center;
     align-content: center;
+    
 }
 .container {
     display: grid;
     justify-content: center;
     border: solid black;
+    border-radius: 2%;
     height: 600px;
     width:400px;
     background-image: linear-gradient(lightblue, lightgreen);
@@ -20,19 +24,20 @@
     height: 119.66px;
     margin-top: 10px;
     color: white;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .display-previous {
     padding: 5px;
     font-size: 25px;
-    justify-content: end;
     opacity: 75%;
 }
 .display-current {
     padding: 5px;
     font-size: 40px;
-    align-self: end;
-    
 }   
 .over {
     display: flex;
@@ -41,7 +46,7 @@
 .clear {
     display:flex;
     width:285px;
-    border-radius: 5%;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -70,13 +75,12 @@
     display:flex;
     width:95px;
     background-color: lightcyan;
-    border-radius: 48%;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     margin-left: 5px;
 }
-
 .sum:hover {
     background-color: rgb(137, 250, 250);
 }
@@ -84,13 +88,12 @@
     display:flex;
     width:95px;
     background-color: lightcyan;
-    border-radius: 48%;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     margin-left: 5px;
 }
-
 .subtract:hover {
     background-color: rgb(137, 250, 250);
 }
@@ -98,26 +101,24 @@
     display:flex;
     width:95px;
     background-color: lightcyan;
-    border-radius: 48%;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     margin-left: 5px;
 }
-
 .multiply:hover {
     background-color: rgb(137, 250, 250);
 }.divide {
     display:flex;
     width:95px;
     background-color: lightcyan;
-    border-radius: 48%;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     margin-left: 5px;
 }
-
 .divide:hover {
     background-color: rgb(137, 250, 250);
 }
@@ -150,7 +151,7 @@
 .equals {
     display: flex;
     width:95px;
-    border-radius: 48%;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
